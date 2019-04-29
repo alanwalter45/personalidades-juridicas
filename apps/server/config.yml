@@ -1,0 +1,17 @@
+---
+  app:
+    gral:
+      production: false
+      secret_api_key: "osiris@2019(*)alanwalter45*"
+      alg: "HS256"
+      credentials_time_minutes: 1200
+    network:
+      ip: "192.168.91.245"
+      port: 6200
+    db:
+      mysql:
+        user: "sistema"
+        password: "sistema2018"
+        database: "personalidades_juridicas_perso"
+        host: "localhost"
+        port: 3306
